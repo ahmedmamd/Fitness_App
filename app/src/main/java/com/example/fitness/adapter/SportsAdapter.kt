@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -18,11 +17,11 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import pl.droidsonroids.gif.GifImageView
 
 
-class ArmsAdapter(
+class SportsAdapter(
         var arms: Array<Int> = arrayOf<Int>(),
         var exersizeName: Array<String> = arrayOf<String>(),
         val context: Context
-): RecyclerView.Adapter<ArmsAdapter.ArmsViewHolder>() {
+): RecyclerView.Adapter<SportsAdapter.ArmsViewHolder>() {
 
     class ArmsViewHolder(binding: ItemDaysBinding): RecyclerView.ViewHolder(binding.root) {
         var gif :GifImageView

@@ -10,7 +10,7 @@ import com.example.fitness.R
 import com.example.fitness.databinding.ActivityArmDaysFirstBinding
 import com.example.fitness.ui.Sports
 
-class ArmDaysStart : AppCompatActivity() {
+class DaysStart : AppCompatActivity() {
     lateinit var binding:ActivityArmDaysFirstBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

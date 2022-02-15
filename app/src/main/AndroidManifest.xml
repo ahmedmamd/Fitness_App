@@ -24,7 +24,7 @@
         <activity android:name=".ui.start.LegsDaysStart" />
         <activity android:name=".ui.start.ShoulderDaysStart" />
         <activity android:name=".ui.start.StomachDaysStart" />
-        <activity android:name=".ui.start.ArmDaysStart" />
+        <activity android:name=".ui.start.DaysStart" />
         <activity android:name=".ui.advanced.AdvancedActivity" />
         <activity android:name=".ui.middle.MiddleActivity" />
         <activity android:name=".ui.start.StartActivity" />
