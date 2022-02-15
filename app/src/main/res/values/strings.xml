@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="arm">الصدر والذراعين</string>
+    <string name="stomach">البطن</string>
+    <string name="epaulette">الظهر والكتفين</string>
+    <string name="legs">الساقين</string>
+</resources>
